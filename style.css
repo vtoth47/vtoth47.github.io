@@ -1,0 +1,93 @@
+/* Since <style> section is CSS, use this style of comments. */
+/* Enter all CSS style parameters here. */
+
+body {background-color: #ABA086; text-align: center;}	
+
+/* Main title text styles: */
+h1 {
+	color: WhiteSmoke; 
+	font: 100px Arial, sans-serif;
+	margin: 25px
+} 
+
+/* Subtitle text styles: */
+h2 {
+	color: #847E6F; 
+	font: 30px Arial, sans-serif;
+} 
+
+/* Image caption text styles: */
+h3 {
+	color: WhiteSmoke; 
+	font: italic 20px Arial, sans-serif; 
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+} 
+
+/* Disclaimer text styles: */
+h4 {
+	border:3px; 
+	border-radius: 20px;
+	border-style:dashed; 
+	padding: 1em;
+	border-color:#a60000;
+	color: #a60000; 
+	font: 14px Arial, sans-serif; font-weight: bold;
+}
+
+/* Paragraph text styles: */
+p {
+	color: #2E2E2E; 
+	font: 12px Arial, sans-serif; 
+	margin-block-start: 1em;
+	margin-block-end: 2em;
+} 
+
+/* Button text styles: */
+h5 {	color: WhiteSmoke; 
+	font: 30px Arial, sans-serif;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+} 
+
+
+/* Images styling: */
+img  {
+  width: 55%;
+  /*float: left;*/
+}
+
+
+/* Button styling section, controls colours of button */
+.button1 {
+  background-color: #847E6F; 
+  color: WhiteSmoke; 
+  border: 4px solid WhiteSmoke;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+/* Button styling section, controls colours of button when hovering over it */
+.button1:hover {
+  background-color: #a60000;
+  color: white;
+}
+
+/* Button styling section, controls colours of button */
+.button2 {
+  background-color: #847E6F; 
+  color: WhiteSmoke; 
+  border: 2px solid WhiteSmoke;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  font: 16px Arial, sans-serif; 
+  transition-duration: 0.5s;
+  
+}
+/* Button styling section, controls colours of button when hovering over it */
+.button2:hover {
+  background-color: #93D689;
+  color: white;
+}
