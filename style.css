@@ -1,27 +1,44 @@
-/* Since <style> section is CSS, use this style of comments. */
-/* Enter all CSS style parameters here. */
+/* 
+Enter all CSS style parameters here. 
+GEOM101 Web Design & Programming
+Assignment 2 
+Victor Toth
+style.css
 
+Since <style> section is CSS, use this style of comments.
+*/
+
+/* Setting the background colour to something that goes well with mushrooms, all text is aligned centre */
 body {background-color: #ABA086; text-align: center;}	
 
-/* Main title text styles: */
+/* Main title text styles: 
+https://www.w3schools.com/css/css_text.asp
+*/
 h1 {
 	color: WhiteSmoke; 
-	font: 100px Arial, sans-serif;
+	font: 60px Arial, sans-serif;
 	margin: 25px
 } 
 
-/* Subtitle text styles: */
+/* Subtitle text styles: 
+The text shadow is actually really cool. I tried not to over use it.
+https://www.w3schools.com/css/css_text_shadow.asp
+*/
 h2 {
 	color: #847E6F; 
-	font: 30px Arial, sans-serif;
+	font: italic 25px Arial, sans-serif; 
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #D8D8D8;
 } 
 
 /* Image caption text styles: */
 h3 {
 	color: WhiteSmoke; 
-	font: italic 20px Arial, sans-serif; 
+	font: italic 16px Arial, sans-serif;
+	font-weight: bold;
 	margin-block-start: 0em;
 	margin-block-end: 0em;
+	text-shadow: 2px 2px 4px #2E2E2E;
 } 
 
 /* Disclaimer text styles: */
@@ -32,8 +49,17 @@ h4 {
 	padding: 1em;
 	border-color:#a60000;
 	color: #a60000; 
-	font: 14px Arial, sans-serif; font-weight: bold;
+	font: 14px Arial, sans-serif; 
+	font-weight: bold;
 }
+
+/* Button text styles: */
+h5 {	
+	color: WhiteSmoke; 
+	font: 20px Arial, sans-serif;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+} 
 
 /* Paragraph text styles: */
 p {
@@ -43,22 +69,24 @@ p {
 	margin-block-end: 2em;
 } 
 
-/* Button text styles: */
-h5 {	color: WhiteSmoke; 
-	font: 30px Arial, sans-serif;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-} 
 
-
-/* Images styling: */
-img  {
-  width: 55%;
-  /*float: left;*/
+/* Images styling: Display at 55% page width and a maximum width of native resolution of 800px 
+This allows the images to look good on desktop and mobile devices.
+https://www.w3schools.com/css/css_rwd_images.asp
+Setting a curved border on the pictures to match with the website theme and other elements.
+*/
+img {
+	width: 55%;
+	max-width: 800px; 
+	height: auto;
+	border-radius: 20px;
 }
 
 
-/* Button styling section, controls colours of button */
+/* Button styling section, controls colours of button.
+button1 is used for page navigation on the website.
+https://www.w3schools.com/css/css3_buttons.asp
+*/
 .button1 {
   background-color: #847E6F; 
   color: WhiteSmoke; 
@@ -74,7 +102,9 @@ img  {
   color: white;
 }
 
-/* Button styling section, controls colours of button */
+/* Button styling section, controls colours of button 
+button2 is used for external links on page2.html
+*/
 .button2 {
   background-color: #847E6F; 
   color: WhiteSmoke; 
@@ -84,8 +114,7 @@ img  {
   text-align: center;
   font: 16px Arial, sans-serif; 
   transition-duration: 0.5s;
-  
-}
+  }
 /* Button styling section, controls colours of button when hovering over it */
 .button2:hover {
   background-color: #93D689;
